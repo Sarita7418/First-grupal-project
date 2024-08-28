@@ -17,66 +17,90 @@
   font-family: 'Red Hat Text';
 }
 
-.card4-6 {
+.principal{
   background-color: var(--Rose-50);
-  border-radius: 8px;
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-left: 14px;
-  margin-right: 14px;
+  padding: 25px;
 }
 
-.card4-6 img.image4-6 {
+.food-images {
   width: 100%;
   border-radius: 8px;
-  margin-bottom: 16px;
 }
 
-.card4-6 h2 {
+.cards h2 {
   color: var(--Rose-400);
-  font-size: 18px;
-  margin-bottom: 8px;
-  text-align: left;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 13px;
 }
 
-.card4-6 p {
+.cards p {
   color: var(--Rose-900);
-  font-size: 12px;
-  margin-bottom: 8px;
-  text-align: left;
   font-weight: 700;
   font-size: 16px;
-
+  padding: 4px 0;
 }
 
-.card4-6 h3 {
+.cards h3 {
   color: var(--Red);
   font-size: 16px;
-  text-align: left;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-button {
-  display: inline-flex; 
-  margin-bottom: 0px;
-  align-items: center; 
-  padding: 8px 16px; 
+.button-cards { 
+  display: flex;
+  padding: 12px 0; 
   background-color: var(--Rose-50); 
   color: var(--Rose-900); 
-  border: 3px solid var(--Rose-300);; 
+  border: 2px solid var(--Rose-300);; 
   border-radius: 120px; 
   font-size: 14px; 
-  font-weight: 600; /
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  text-align: center; 
-  outline: none; 
+  font-weight: 650;  
+  vertical-align: middle;
+  position: absolute;
+  bottom: -20px; 
+  width: 155px;
+  justify-content: center;
 }
 
-.button img {
-  margin-right: 8px; 
+h1{
+  font-size: 40px;
+  margin-bottom: 25px;
 }
 
+.image-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.cards{
+  margin-bottom: 20px;
+}
+
+button img{
+  padding-right: 4px;
+}
+
+.sel .food-images{
+  border: 2px solid var(--Red);
+}
+
+.sel .button-cards{
+  background-color: var(--Red);
+  color: white;
+  justify-content: space-around;
+  vertical-align: middle;
+  align-items: center;
+  font-weight: 400;
+  border-color: var(--Red);
+}
+
+.sel .button-cards img{
+  border: 1px solid white;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  padding: 2px;
+}
