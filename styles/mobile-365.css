@@ -137,34 +137,34 @@ button img {
   font-weight: 700;
 }
 
-.products_quantity{
+.products_quantity {
   color: var(--Red);
   font-weight: 600;
   padding-right: 7px;
 }
 
-.products p{
+.products p {
   padding: 0 0 5px 0;
   font-weight: 650;
 }
 
-.products div{
+.products div {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 20px 0;
 }
 
-.order-total{
+.order-total {
   font-weight: 500;
 }
 
-.order-final{
+.order-final {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 25px 0;
 }
 
-.order-final b{
+.order-final b {
   font-size: 23px;
 }
 
@@ -190,9 +190,11 @@ button img {
   text-align: center;
 }
 
-.products img{
+.products img {
   float: right;
   border: 1px solid var(--Rose-400);
   border-radius: 10px;
   padding: 2px;
 }
+
+/*By: Sarita731*/
